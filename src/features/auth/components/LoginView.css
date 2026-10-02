@@ -1,0 +1,109 @@
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003333;
+}
+
+.login-card {
+  background: #ffffff;
+  width: 420px;
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.login-logo {
+  width: 90px;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.login-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #003333;
+}
+
+.login-subtitle {
+  margin: 5px 0 25px 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.input-group {
+  text-align: right;
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #555;
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 14px 15px;
+  border: none;
+  background: #f3f3f3;
+  border-radius: 12px;
+  outline: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.input-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #444;
+}
+
+.password-eye {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #444;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  background-color: #003c3c;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+}
+
+.success-text {
+  color: green;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.error-text {
+  color: red;
+  margin-bottom: 10px;
+  font-weight: bold;
+}

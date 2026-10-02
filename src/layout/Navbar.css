@@ -1,0 +1,31 @@
+.navbar {
+  width: calc(100% - 260px); /* لأن السايدبار 260px */
+  height: 80px;
+  background: #ffffff;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  right: 310px; /* يبدأ من بعد السايدبار */
+  z-index: 10;
+}
+
+.navbar-text {
+  text-align: right;
+}
+
+.navbar-title {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700; /* bold */
+  color: #002f2f; /* نفس لون الثيم */
+}
+
+.navbar-subtitle {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #555;
+}
